@@ -709,7 +709,8 @@ $.fn.jqPuzzle = function(settings, texts) {
 					padding: '0px',
 					backgroundColor: 'transparent'
 				})
-				.append($credits).append($controls);
+				//.append($credits).append($controls);
+				.append($controls);
 
 			// full gui (including wrapper and panel)
 			var $gui = $('<div/>')

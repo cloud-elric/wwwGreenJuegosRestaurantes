@@ -48,7 +48,7 @@ $this->title="Gano perdio";
 								type: "POST",
 								success: function(resp){
 									if(resp.status == "success"){
-										window.location.href = '<?=Url::base()?>/site/premios?token='+'<?= $token ?>';
+										window.location.href = '<?=Url::base()?>/site/mecanica?token='+'<?= $token ?>';
 									}
 								}
 							});

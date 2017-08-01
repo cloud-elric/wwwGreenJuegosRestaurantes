@@ -13,6 +13,7 @@ use app\models\ViewPremiosRestantes;
 use app\models\RelUsuarioPremio;
 use app\models\ViewUsuarioDatos;
 use yii\web\Response;
+use app\models\WebConstantes;
 
 class SiteController extends Controller {
 	public $enableCsrfValidation = false;
@@ -79,7 +80,8 @@ class SiteController extends Controller {
 		$usuario = new EntUsuarios ();
 
 		if ($usuario->load ( Yii::$app->request->post () )) {
-
+			// Asigna el restaurante
+			$usuario->id_restaurante = 1;
 			$usuario->txt_token = "usr_" . md5 ( uniqid ( "usr_" ) ) . uniqid ();
 			if ($usuario->save ()) {
 		
@@ -317,8 +319,12 @@ private function getShortUrl($url) {
 
 		if($usuario){
 			if($usuario->b_tiempo > 0){
-				return $this->render('verPremio', [
-					'token' => $token
+
+				$relPremio = RelUsuarioPremio::find()->where(['id_usuario'=>$usuario->id_usuario])->one();
+				
+
+				return $this->redirect(['premios', 
+					'token' => $relPremio->txt_token
 				]);
 			}else{
 				return $this->render("gano-perdio", ['token'=>$token]);
@@ -341,6 +347,20 @@ private function getShortUrl($url) {
 		if(isset($_POST['token']) && isset($_POST['tiempo'])){
 			$usuario = EntUsuarios::find()->where(['txt_token'=>$_POST['token']])->one();
 			if($usuario){
+
+				if($usuario->b_tiempo < WebConstantes::TIEMPO_PREMIO_MAYOR){
+					$idPremio = WebConstantes::DOS_POR_UNO;
+				}else{
+					$idPremio = WebConstantes::DESCUENTO;
+				}
+
+				$relPremioUsuario = new RelUsuarioPremio();
+				$relPremioUsuario->id_premio = $idPremio;
+				$relPremioUsuario->id_usuario = $usuario->id_usuario;
+				$relPremioUsuario->txt_token = "pre_" . md5 ( uniqid ( "pre_" ) ) . uniqid ();
+				$relPremioUsuario->fch_premio = $this->getFechaActual();
+				$relPremioUsuario->save();
+
 				$usuario->b_tiempo = $_POST['tiempo'];
 				if($usuario->save()){
 					return ['status' => 'success'];
@@ -351,9 +371,12 @@ private function getShortUrl($url) {
 	}
 
 	public function actionPremios($token = null){
+
+		$relPremio = RelUsuarioPremio::find()->where(['txt_token'=>$token])->one();
+
 		
 		return $this->render('verPremio', [
-			'token' => $token
+			'premio' => $relPremio->idPremio
 		]);
 	}
 
