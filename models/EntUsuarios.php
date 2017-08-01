@@ -53,16 +53,40 @@ class EntUsuarios extends \yii\db\ActiveRecord
     {
         return [
             'id_usuario' => 'Id Usuario',
-            'txt_nombre_completo' => 'Txt Nombre Completo',
-            'txt_telefono_celular' => 'Txt Telefono Celular',
-            'txt_cp' => 'Txt Cp',
+            'txt_nombre_completo' => 'Nombre completo',
+            'txt_telefono_celular' => 'Teléfono celular',
+            'txt_cp' => 'Código postal',
             'txt_token' => 'Txt Token',
-            'num_edad' => 'Num Edad',
-            'txt_codigo' => 'Txt Codigo',
-            'txt_num_empleado' => 'Txt Num Empleado',
+            'num_edad' => 'Edad',
+            'txt_codigo' => 'Código',
+            'txt_num_empleado' => '# de empleado',
             'fch_registro' => 'Fch Registro',
             'b_aceptar_terminos' => 'B Aceptar Terminos',
             'b_gano' => 'B Gano',
         ];
     }
+
+     /** 
+    * @return \yii\db\ActiveQuery 
+    */ 
+   public function getIdRestaurante() 
+   { 
+       return $this->hasOne(CatRestaurantes::className(), ['id_restaurante' => 'id_restaurante']); 
+   } 
+ 
+   /** 
+    * @return \yii\db\ActiveQuery 
+    */ 
+   public function getRelUsuarioPremios() 
+   { 
+       return $this->hasMany(RelUsuarioPremio::className(), ['id_usuario' => 'id_usuario']); 
+   } 
+ 
+   /** 
+    * @return \yii\db\ActiveQuery 
+    */ 
+   public function getIdPremios() 
+   { 
+       return $this->hasMany(CatPremios::className(), ['id_premio' => 'id_premio'])->viaTable('rel_usuario_premio', ['id_usuario' => 'id_usuario']); 
+   } 
 }
