@@ -11,7 +11,7 @@ $this->title="Gano perdio";
 </style>
 <div class="container container-ribbon">
 	<img id="imagen-puzzle" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" height="500" width="500"/>
-	<a id="js_comenzar" class="btn btn-secondary" href="#">Comenzar</a>
+	<a id="js_comenzar" class="btn btn-secondary" href="#">Revolver</a>
 </div>
 
 <script type="text/javascript">
