@@ -10,6 +10,7 @@ $this->title="Registro";
 <div class="container container-ribbon">
 	<!-- Main content Wrapper -->
 
+	<img class="logo-restaurante" src="<?=Url::base()?>/webAssets/images/logorestaurante.png" alt="Entre-Fuegos">
 	<!-- Contenedor de registro -->
 	<div class="js-registro-contenedor">
 		<div class="form-wrapper">
@@ -27,21 +28,21 @@ $this->title="Registro";
 				echo $form->field ( $usuario, 'txt_nombre_completo' )->textInput ( [
 						'maxlength' => 150,
 						'placeholder'=>'Nombre'
-				] )->label();
+				] )->label('Nombre');
 				// Genera un input
 				echo $form->field ( $usuario, 'txt_telefono_celular' )->textInput ( [
 						'type'=>'number',
 						'maxlength' => 10,
 						'placeholder'=>'Teléfono'
-				] )->label();
+				] )->label('Celular');
 				// Genera un input
 				echo $form->field ( $usuario, 'txt_cp' )->textInput ( [
-						'placeholder'=>'Codigo postal'
-				] )->label();
+						'placeholder'=>'Código postal'
+				] )->label('C.P.');
 				// Genera un input
 				echo $form->field ( $usuario, 'num_edad' )->textInput ( [
 						'placeholder'=>'Edad'
-				] )->label();
+				] )->label('Edad');
 
 				?>
 				<!--Terminos y condiciones-->
@@ -55,14 +56,14 @@ $this->title="Registro";
 
 				<?php
 				echo $form->field ( $usuario, 'txt_codigo' )->textInput ( [
-						'placeholder'=>'Codigo'
-				] )->label();
+						'placeholder'=>'Código'
+				] )->label('Código');
 
 				echo $form->field ( $usuario, 'txt_num_empleado' )->textInput ( [
-						'placeholder'=>'Numero de empleado'
-				] )->label();
+						'placeholder'=>'PIN'
+				] )->label('PIN');
 				?>
-		
+
 				<div class="form-cta-wrapper">
 					<button class="btn btn-secondary ladda-button" id="js-btn-guardar-informacion"  data-style="zoom-in" type="submit"><span class="ladda-label">Enviar</span></button>
 				</div>

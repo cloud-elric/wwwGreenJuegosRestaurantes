@@ -35,11 +35,11 @@ class EntUsuarios extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['txt_nombre_completo', 'txt_telefono_celular', 'txt_cp', 'txt_token', 'num_edad', 'txt_codigo', 'txt_num_empleado'], 'required'],
+            [['txt_nombre_completo', 'txt_telefono_celular', 'txt_cp', 'txt_token', 'num_edad', 'txt_codigo', 'txt_num_empleado'], 'required', 'message'=>'Campo requerido'],
             [['num_edad', 'b_aceptar_terminos', 'b_gano'], 'integer'],
             [['fch_registro'], 'safe'],
             [['txt_nombre_completo'], 'string', 'max' => 150],
-            [['txt_telefono_celular'], 'string', 'max' => 10],
+           [['txt_telefono_celular'], 'string', 'max' => 10, 'min' => 10, 'tooLong' => 'El campo no debe superar 10 dígitos','tooShort' => 'El campo debe ser mínimo de 10 digítos'],
             [['txt_cp'], 'string', 'max' => 5],
             [['txt_token'], 'string', 'max' => 70],
             [['txt_codigo', 'txt_num_empleado'], 'string', 'max' => 50],
@@ -53,16 +53,40 @@ class EntUsuarios extends \yii\db\ActiveRecord
     {
         return [
             'id_usuario' => 'Id Usuario',
-            'txt_nombre_completo' => 'Txt Nombre Completo',
-            'txt_telefono_celular' => 'Txt Telefono Celular',
-            'txt_cp' => 'Txt Cp',
+            'txt_nombre_completo' => 'Nombre completo',
+            'txt_telefono_celular' => 'Teléfono celular',
+            'txt_cp' => 'Código postal',
             'txt_token' => 'Txt Token',
-            'num_edad' => 'Num Edad',
-            'txt_codigo' => 'Txt Codigo',
-            'txt_num_empleado' => 'Txt Num Empleado',
+            'num_edad' => 'Edad',
+            'txt_codigo' => 'Código',
+            'txt_num_empleado' => 'PIN',
             'fch_registro' => 'Fch Registro',
             'b_aceptar_terminos' => 'B Aceptar Terminos',
             'b_gano' => 'B Gano',
         ];
     }
+
+     /** 
+    * @return \yii\db\ActiveQuery 
+    */ 
+   public function getIdRestaurante() 
+   { 
+       return $this->hasOne(CatRestaurantes::className(), ['id_restaurante' => 'id_restaurante']); 
+   } 
+ 
+   /** 
+    * @return \yii\db\ActiveQuery 
+    */ 
+   public function getRelUsuarioPremios() 
+   { 
+       return $this->hasMany(RelUsuarioPremio::className(), ['id_usuario' => 'id_usuario']); 
+   } 
+ 
+   /** 
+    * @return \yii\db\ActiveQuery 
+    */ 
+   public function getIdPremios() 
+   { 
+       return $this->hasMany(CatPremios::className(), ['id_premio' => 'id_premio'])->viaTable('rel_usuario_premio', ['id_usuario' => 'id_usuario']); 
+   } 
 }
