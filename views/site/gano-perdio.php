@@ -34,7 +34,7 @@ $this->title="Gano perdio";
 					//swal("Good job!", "Tu tiempo fue de "+count+" segundos", "success");
 					swal({
 						title: "Buen trabajo!!",
-						text: "Tu tiempo fue de "+minutos+" minutos!",
+						text: "Tu tiempo fue de "+minutos.toFixed(1)+" minutos!",
 						type: "success",
 						showCancelButton: true,
 						confirmButtonColor: "#DD6B55",
