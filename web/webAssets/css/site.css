@@ -570,7 +570,7 @@ body {
 .container-ribbon,
 .container-premio {
   flex-direction: column;
-  background-image: url("../images/fondoentrefuegos.png");
+  background-image: url("../images/fondorestaurante.png");
   background-size: cover;
   background-position: center; }
   .container-ribbon a,
@@ -595,7 +595,7 @@ body {
 .container-home {
   justify-content: center;
   align-items: center;
-  background-image: url("../images/fondoentrefuegos.png");
+  background-image: url("../images/fondorestaurante.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
