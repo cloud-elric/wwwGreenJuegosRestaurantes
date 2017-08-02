@@ -13,6 +13,7 @@ use app\models\ViewPremiosRestantes;
 use app\models\RelUsuarioPremio;
 use app\models\ViewUsuarioDatos;
 use yii\web\Response;
+use app\models\WebConstantes;
 
 class SiteController extends Controller {
 	public $enableCsrfValidation = false;
@@ -79,10 +80,11 @@ class SiteController extends Controller {
 		$usuario = new EntUsuarios ();
 
 		if ($usuario->load ( Yii::$app->request->post () )) {
-
+			// Asigna el restaurante
+			$usuario->id_restaurante = 1;
 			$usuario->txt_token = "usr_" . md5 ( uniqid ( "usr_" ) ) . uniqid ();
 			if ($usuario->save ()) {
-		
+
 				return $this->redirect(['instrucciones', 'token'=>$usuario->txt_token]);
 			}
 		}
@@ -94,12 +96,12 @@ class SiteController extends Controller {
 
 	public function actionUsuarioGano($token=null){
 		$usuario = EntUsuarios::find()->where(["txt_token"=>$token])->one();
-		
+
 		if($usuario){
 			$usuario->b_gano = 1;
 			$usuario->save();
 
-			$link = Yii::$app->urlManager->createAbsoluteUrl ( [ 
+			$link = Yii::$app->urlManager->createAbsoluteUrl ( [
 								'site/ver-premio?token=' . $usuario->txt_token
 			] );
 
@@ -109,40 +111,40 @@ class SiteController extends Controller {
 
 			$this->sendSMS($usuario->txt_telefono_celular, $message);
 		}else{
-			
+
 		}
 
 		return $this->redirect ( ['index'] );
 	}
 
-	
+
 
 	private function sendSMS($tel='', $message=''){
-		
+
 		$urlAutenticate = 'http://sms-tecnomovil.com/SvtSendSms?username=PIXERED&password=Pakabululu01&message=' . $message . '&numbers=' . $tel;
-		//$sms = file_get_contents ( $url );	
+		//$sms = file_get_contents ( $url );
 
 		#$urlAutenticate = 'http://dgom.mobi';
-		
+
 		$ch = curl_init ();
-		
+
 		curl_setopt ( $ch, CURLOPT_URL, $urlAutenticate );
-		
+
 		curl_setopt ( $ch, CURLOPT_POSTREDIR, 3 );
 		curl_setopt ( $ch, CURLOPT_FOLLOWLOCATION, true );
-		
+
 		// in real life you should use something like:
 		// curl_setopt($ch, CURLOPT_POSTFIELDS,
 		// http_build_query(array('postvar1' => 'value1')));
-		
+
 		// receive server response ...
 		curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, true );
-		
+
 		$server_output = curl_exec ( $ch );
-		
+
 		curl_close ( $ch );
-		
-		return $server_output;			
+
+		return $server_output;
 
 	}
 
@@ -152,26 +154,26 @@ public function actionTestGetUrl(){
 
 private function getShortUrl($url) {
 		$urlAutenticate = 'http://dgom.mobi';
-		
+
 		$ch = curl_init ();
-		
+
 		curl_setopt ( $ch, CURLOPT_URL, $urlAutenticate );
 		curl_setopt ( $ch, CURLOPT_CUSTOMREQUEST, 'POST' );
 		curl_setopt ( $ch, CURLOPT_POSTFIELDS, 'user=userGreenSaco&pass=passGreenSacro&app=GreenSacro&url=' . $url );
 		curl_setopt ( $ch, CURLOPT_POSTREDIR, 3 );
 		curl_setopt ( $ch, CURLOPT_FOLLOWLOCATION, true );
-		
+
 		// in real life you should use something like:
 		// curl_setopt($ch, CURLOPT_POSTFIELDS,
 		// http_build_query(array('postvar1' => 'value1')));
-		
+
 		// receive server response ...
 		curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, true );
-		
+
 		$server_output = curl_exec ( $ch );
-		
+
 		curl_close ( $ch );
-		
+
 		return $server_output;
 	}
 
@@ -183,7 +185,7 @@ private function getShortUrl($url) {
 		}
 
 
-		
+
 	}
 
 	/**
@@ -192,12 +194,12 @@ private function getShortUrl($url) {
 	public function actionGuardarInformacion($tokenEvento=null) {
 
 		$usuario = new EntUsuarios ();
-		
+
 
 		if ($usuario->load ( Yii::$app->request->post () )) {
 				$usuario->txt_token = "usr_" . md5 ( uniqid ( "usr_" ) ) . uniqid ();
 			if ($usuario->save ()) {
-				
+
 			}
 
 			return $this->renderAjax ( 'mucha-suerte' );
@@ -227,7 +229,7 @@ private function getShortUrl($url) {
 			$arrayCsv [$i] ['fchRegistro'] = $data->fch_registro;
 			$arrayCsv [$i] ['cargo'] = $data->txt_cargo;
 			$arrayCsv [$i] ['gano'] = $data->b_gano?'Si':'No';
-			
+
 
 			$i++;
 		}
@@ -317,11 +319,15 @@ private function getShortUrl($url) {
 
 		if($usuario){
 			if($usuario->b_tiempo > 0){
-				return $this->render('verPremio', [
-					'token' => $token
+
+				$relPremio = RelUsuarioPremio::find()->where(['id_usuario'=>$usuario->id_usuario])->one();
+
+
+				return $this->redirect(['premios',
+					'token' => $relPremio->txt_token
 				]);
 			}else{
-				return $this->render("gano-perdio", ['token'=>$token]);
+				return $this->render("mecanica", ['token'=>$token]);
 			}
 		}
 	}
@@ -332,15 +338,29 @@ private function getShortUrl($url) {
 		if($usuario){
 			return $this->render("instrucciones", ['token'=>$token]);
 		}
-		
+
 	}
 
 	public function actionGuardarTiempo(){
 		Yii::$app->response->format = Response::FORMAT_JSON;
-		
+
 		if(isset($_POST['token']) && isset($_POST['tiempo'])){
 			$usuario = EntUsuarios::find()->where(['txt_token'=>$_POST['token']])->one();
 			if($usuario){
+
+				if($usuario->b_tiempo < WebConstantes::TIEMPO_PREMIO_MAYOR){
+					$idPremio = WebConstantes::DOS_POR_UNO;
+				}else{
+					$idPremio = WebConstantes::DESCUENTO;
+				}
+
+				$relPremioUsuario = new RelUsuarioPremio();
+				$relPremioUsuario->id_premio = $idPremio;
+				$relPremioUsuario->id_usuario = $usuario->id_usuario;
+				$relPremioUsuario->txt_token = "pre_" . md5 ( uniqid ( "pre_" ) ) . uniqid ();
+				$relPremioUsuario->fch_premio = $this->getFechaActual();
+				$relPremioUsuario->save();
+
 				$usuario->b_tiempo = $_POST['tiempo'];
 				if($usuario->save()){
 					return ['status' => 'success'];
@@ -351,9 +371,12 @@ private function getShortUrl($url) {
 	}
 
 	public function actionPremios($token = null){
-		
+
+		$relPremio = RelUsuarioPremio::find()->where(['txt_token'=>$token])->one();
+
+
 		return $this->render('verPremio', [
-			'token' => $token
+			'premio' => $relPremio->idPremio
 		]);
 	}
 
