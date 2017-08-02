@@ -35,11 +35,11 @@ class EntUsuarios extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['txt_nombre_completo', 'txt_telefono_celular', 'txt_cp', 'txt_token', 'num_edad', 'txt_codigo', 'txt_num_empleado'], 'required'],
+            [['txt_nombre_completo', 'txt_telefono_celular', 'txt_cp', 'txt_token', 'num_edad', 'txt_codigo', 'txt_num_empleado'], 'required', 'message'=>'Campo requerido'],
             [['num_edad', 'b_aceptar_terminos', 'b_gano'], 'integer'],
             [['fch_registro'], 'safe'],
             [['txt_nombre_completo'], 'string', 'max' => 150],
-            [['txt_telefono_celular'], 'string', 'max' => 10],
+           [['txt_telefono_celular'], 'string', 'max' => 10, 'min' => 10, 'tooLong' => 'El campo no debe superar 10 dígitos','tooShort' => 'El campo debe ser mínimo de 10 digítos'],
             [['txt_cp'], 'string', 'max' => 5],
             [['txt_token'], 'string', 'max' => 70],
             [['txt_codigo', 'txt_num_empleado'], 'string', 'max' => 50],
@@ -59,7 +59,7 @@ class EntUsuarios extends \yii\db\ActiveRecord
             'txt_token' => 'Txt Token',
             'num_edad' => 'Edad',
             'txt_codigo' => 'Código',
-            'txt_num_empleado' => '# de empleado',
+            'txt_num_empleado' => 'PIN',
             'fch_registro' => 'Fch Registro',
             'b_aceptar_terminos' => 'B Aceptar Terminos',
             'b_gano' => 'B Gano',
