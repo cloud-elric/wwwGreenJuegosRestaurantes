@@ -10,24 +10,24 @@ $this->title="Gano perdio";
 }
 </style>
 <div class="container container-ribbon">
-	<img id="imagen-puzzle" src="../images/img_avatar2.png" alt="imagen" class="jqPuzzle" height="500" width="500"/>
-	<a id="js_comenzar" href="#">Comenzar</a>
+	<img id="imagen-puzzle" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" height="500" width="500"/>
+	<a id="js_comenzar" class="btn btn-secondary" href="#">Comenzar</a>
 </div>
 
-<script type="text/javascript"> 
+<script type="text/javascript">
 	$(document).ready(function() {
-		var settings = { 
-			rows: 3,                    // number of rows [3 ... 9] 
-			cols: 3,                    // number of columns [3 ... 9] 
-			hole: 9,                   // initial hole position [1 ... rows*columns] 
-			shuffle: false,             // initially show shuffled pieces [true|false] 
+		var settings = {
+			rows: 3,                    // number of rows [3 ... 9]
+			cols: 3,                    // number of columns [3 ... 9]
+			hole: 9,                   // initial hole position [1 ... rows*columns]
+			shuffle: false,             // initially show shuffled pieces [true|false]
 			numbers: true,
-			control: { 
-                toggleNumbers: false, 
-                counter: false, 
-                timer: true 
+			control: {
+                toggleNumbers: false,
+                counter: false,
+                timer: true
 			},
-			success: { 
+			success: {
                 callback: function(results) {
 					var count = $("#imagen-puzzle input").val();
 					//swal("Good job!", "Tu tiempo fue de "+count+" segundos", "success");
@@ -35,9 +35,9 @@ $this->title="Gano perdio";
 						title: "Buen trabajo!!",
 						text: "Tu tiempo fue de "+count+" segundos!",
 						type: "success",
-						showCancelButton: true,
-						confirmButtonColor: "#DD6B55",
-						confirmButtonText: "Verificar premio",
+						showCancelButton: false,
+						confirmButtonColor: "#F08D27",
+						confirmButtonText: "Ver mi premio",
 						closeOnConfirm: false
 						},
 						function(){
@@ -54,19 +54,19 @@ $this->title="Gano perdio";
 							});
 						}
 					);
-                } 
+                }
             }
 		}
 
-		var myTexts = { 
-            shuffleLabel:           'Comenzar!', 
-            toggleOriginalLabel:    'Original!', 
+		var myTexts = {
+            shuffleLabel:           'Comenzar!',
+            toggleOriginalLabel:    'Original!',
         };
-		$('#imagen-puzzle').jqPuzzle(settings, myTexts); // apply to all images 
+		$('#imagen-puzzle').jqPuzzle(settings, myTexts); // apply to all images
 
 
 		$("#js_comenzar").on("click", function(){
 			$(".jqp-controls>a").trigger("click");
 		});
-	}); 
+	});
 </script>
