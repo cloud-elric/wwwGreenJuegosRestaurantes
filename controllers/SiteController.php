@@ -81,7 +81,7 @@ class SiteController extends Controller {
 
 		if ($usuario->load ( Yii::$app->request->post () )) {
 			// Asigna el restaurante
-			$usuario->id_restaurante = 1;
+			$usuario->id_restaurante = WebConstantes::ENTRE_FUEGOS;
 			$usuario->txt_token = "usr_" . md5 ( uniqid ( "usr_" ) ) . uniqid ();
 			if ($usuario->save ()) {
 
