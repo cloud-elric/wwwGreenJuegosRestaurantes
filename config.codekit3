@@ -221,72 +221,6 @@
 		"oAP": "\/runtime\/.gitignore",
 		"oF": 0
 		},
-	"\/runtime\/debug\/59825a07478e1.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a07478e1.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a0769705.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a0769705.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a08575da.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a08575da.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a0880020.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a0880020.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a23a81de.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a23a81de.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a23e681a.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a23e681a.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a249e346.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a249e346.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a24c5eaa.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a24c5eaa.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a43d21f4.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a43d21f4.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a4746859.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a4746859.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59825a7834119.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59825a7834119.data",
-		"oF": 0
-		},
 	"\/runtime\/debug\/59825a78c07a5.data": {
 		"ft": 8192,
 		"oA": 2,
@@ -533,6 +467,108 @@
 		"oAP": "\/runtime\/debug\/59826ee6575a8.data",
 		"oF": 0
 		},
+	"\/runtime\/debug\/59826f3e03896.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826f3e03896.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826f3f03c3a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826f3f03c3a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826f42ef373.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826f42ef373.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826f432aa52.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826f432aa52.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826f444f161.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826f444f161.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826fc21b638.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826fc21b638.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826fc401027.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826fc401027.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826fd36ba29.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826fd36ba29.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826fd400828.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826fd400828.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826fd59739e.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826fd59739e.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5982702b4b9e9.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5982702b4b9e9.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5982702c8531a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5982702c8531a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5982703c67573.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5982703c67573.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5982703d97c09.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5982703d97c09.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5982703e4221d.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5982703e4221d.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5982703fe1baf.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5982703fe1baf.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59827040965bb.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59827040965bb.data",
+		"oF": 0
+		},
 	"\/runtime\/debug\/index.data": {
 		"ft": 8192,
 		"oA": 2,
@@ -681,12 +717,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tests\/unit\/models\/UserTest.php",
-		"oF": 0
-		},
-	"\/vendor\/.gitignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/vendor\/.gitignore",
 		"oF": 0
 		},
 	"\/vendor\/autoload.php": {
@@ -1763,7 +1793,7 @@
 		"oA": 0,
 		"oAP": "\/vendor\/bower\/bootstrap\/dist\/css\/bootstrap-theme-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/vendor\/bower\/bootstrap\/dist\/css\/bootstrap-theme.css.map": {
 		"ft": 8192,
@@ -1779,7 +1809,7 @@
 		"oA": 0,
 		"oAP": "\/vendor\/bower\/bootstrap\/dist\/css\/bootstrap-theme.min-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/vendor\/bower\/bootstrap\/dist\/css\/bootstrap-theme.min.css.map": {
 		"ft": 8192,
@@ -1795,7 +1825,7 @@
 		"oA": 0,
 		"oAP": "\/vendor\/bower\/bootstrap\/dist\/css\/bootstrap-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/vendor\/bower\/bootstrap\/dist\/css\/bootstrap.css.map": {
 		"ft": 8192,
@@ -1811,7 +1841,7 @@
 		"oA": 0,
 		"oAP": "\/vendor\/bower\/bootstrap\/dist\/css\/bootstrap.min-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/vendor\/bower\/bootstrap\/dist\/css\/bootstrap.min.css.map": {
 		"ft": 8192,
@@ -15836,7 +15866,7 @@
 		"oA": 0,
 		"oAP": "\/vendor\/ezyang\/htmlpurifier\/library\/HTMLPurifier\/Printer\/ConfigForm-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/vendor\/ezyang\/htmlpurifier\/library\/HTMLPurifier\/Printer\/ConfigForm.js": {
 		"ft": 64,
@@ -22226,7 +22256,7 @@
 		"oA": 0,
 		"oAP": "\/vendor\/phpspec\/php-diff\/example\/styles-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/vendor\/phpspec\/php-diff\/lib\/Diff.php": {
 		"ft": 8192,
@@ -39803,12 +39833,6 @@
 		"oAP": "\/views\/site\/error.php",
 		"oF": 0
 		},
-	"\/views\/site\/gano-perdio.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/views\/site\/gano-perdio.php",
-		"oF": 0
-		},
 	"\/views\/site\/inicio.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -39819,6 +39843,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/site\/instrucciones.php",
+		"oF": 0
+		},
+	"\/views\/site\/mecanica.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/mecanica.php",
 		"oF": 0
 		},
 	"\/views\/site\/registro.php": {
@@ -40141,16 +40171,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/images\/large_pic_575706fb9b76f-2.jpg": {
-		"ft": 16384,
-		"iS": 60717,
-		"oA": 0,
-		"oAP": "\/web\/images\/large_pic_575706fb9b76f-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/web\/index-test.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -40244,6 +40264,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/web\/webAssets\/images\/botella.png": {
+		"ft": 32768,
+		"iS": 38627,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/botella.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/web\/webAssets\/images\/check-box.png": {
 		"ft": 32768,
 		"iS": 328,
@@ -40266,22 +40297,33 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/gano.png": {
+	"\/web\/webAssets\/images\/fondorestaurante.png": {
 		"ft": 32768,
-		"iS": 2117,
+		"iS": 584168,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/gano.png",
+		"oAP": "\/web\/webAssets\/images\/fondorestaurante.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/logo-fa-with-ribbon.png": {
+	"\/web\/webAssets\/images\/imagen-rompecabezas.png": {
 		"ft": 32768,
-		"iS": 14600,
+		"iS": 196613,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/logo-fa-with-ribbon.png",
+		"oAP": "\/web\/webAssets\/images\/imagen-rompecabezas.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/libreta.png": {
+		"ft": 32768,
+		"iS": 65493,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/libreta.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -40299,33 +40341,33 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/logo-green.png": {
+	"\/web\/webAssets\/images\/logoportadarestaurante.png": {
 		"ft": 32768,
-		"iS": 23713,
+		"iS": 13515,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/logo-green.png",
+		"oAP": "\/web\/webAssets\/images\/logoportadarestaurante.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/perdio.png": {
+	"\/web\/webAssets\/images\/logorestaurante.png": {
 		"ft": 32768,
-		"iS": 2117,
+		"iS": 3753,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/perdio.png",
+		"oAP": "\/web\/webAssets\/images\/logorestaurante.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/ribbon.png": {
+	"\/web\/webAssets\/images\/sacacorchos.png": {
 		"ft": 32768,
-		"iS": 8963,
+		"iS": 6837,
 		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/ribbon.png",
+		"oAP": "\/web\/webAssets\/images\/sacacorchos.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -40348,6 +40390,15 @@
 		"oAP": "\/web\/webAssets\/js\/jquery-3.1.1.min-min.js",
 		"oF": 0,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/web\/webAssets\/js\/jquery.jqpuzzle.full-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/js\/jquery.jqpuzzle.full-min-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/web\/webAssets\/js\/jquery.jqpuzzle.full.js": {
@@ -40404,6 +40455,22 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/web\/webAssets\/plugins\/sweet-alert\/sweetalert-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/plugins\/sweet-alert\/sweetalert-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/web\/webAssets\/plugins\/sweet-alert\/sweetalert-min.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/webAssets\/plugins\/sweet-alert\/sweetalert-min.css.map",
+		"oF": 0
 		},
 	"\/web\/webAssets\/plugins\/sweet-alert\/sweetalert.css": {
 		"aP": 1,
