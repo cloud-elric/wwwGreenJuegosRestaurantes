@@ -185,6 +185,12 @@
 		"oAP": "\/models\/ViewUsuarioDatos.php",
 		"oF": 0
 		},
+	"\/models\/WebConstantes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/models\/WebConstantes.php",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -215,358 +221,316 @@
 		"oAP": "\/runtime\/.gitignore",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bea5e94a5.data": {
+	"\/runtime\/debug\/59825a07478e1.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bea5e94a5.data",
+		"oAP": "\/runtime\/debug\/59825a07478e1.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bec2604d6.data": {
+	"\/runtime\/debug\/59825a0769705.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bec2604d6.data",
+		"oAP": "\/runtime\/debug\/59825a0769705.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bec6c8598.data": {
+	"\/runtime\/debug\/59825a08575da.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bec6c8598.data",
+		"oAP": "\/runtime\/debug\/59825a08575da.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bedbb36ac.data": {
+	"\/runtime\/debug\/59825a0880020.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bedbb36ac.data",
+		"oAP": "\/runtime\/debug\/59825a0880020.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bede9fdd9.data": {
+	"\/runtime\/debug\/59825a23a81de.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bede9fdd9.data",
+		"oAP": "\/runtime\/debug\/59825a23a81de.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bef9827c8.data": {
+	"\/runtime\/debug\/59825a23e681a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bef9827c8.data",
+		"oAP": "\/runtime\/debug\/59825a23e681a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bf2651a4b.data": {
+	"\/runtime\/debug\/59825a249e346.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bf2651a4b.data",
+		"oAP": "\/runtime\/debug\/59825a249e346.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bf31d1454.data": {
+	"\/runtime\/debug\/59825a24c5eaa.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bf31d1454.data",
+		"oAP": "\/runtime\/debug\/59825a24c5eaa.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bf39a1957.data": {
+	"\/runtime\/debug\/59825a43d21f4.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bf39a1957.data",
+		"oAP": "\/runtime\/debug\/59825a43d21f4.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bf47ccba8.data": {
+	"\/runtime\/debug\/59825a4746859.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bf47ccba8.data",
+		"oAP": "\/runtime\/debug\/59825a4746859.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bf761a744.data": {
+	"\/runtime\/debug\/59825a7834119.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bf761a744.data",
+		"oAP": "\/runtime\/debug\/59825a7834119.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bfa281058.data": {
+	"\/runtime\/debug\/59825a78c07a5.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bfa281058.data",
+		"oAP": "\/runtime\/debug\/59825a78c07a5.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bfc3d0b1b.data": {
+	"\/runtime\/debug\/59825a7a7143d.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bfc3d0b1b.data",
+		"oAP": "\/runtime\/debug\/59825a7a7143d.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bfd79f03e.data": {
+	"\/runtime\/debug\/59825ad66e2ed.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bfd79f03e.data",
+		"oAP": "\/runtime\/debug\/59825ad66e2ed.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977bff8a5c61.data": {
+	"\/runtime\/debug\/59825ad78eebc.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977bff8a5c61.data",
+		"oAP": "\/runtime\/debug\/59825ad78eebc.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c00c63e77.data": {
+	"\/runtime\/debug\/59825ad848101.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c00c63e77.data",
+		"oAP": "\/runtime\/debug\/59825ad848101.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c0735766e.data": {
+	"\/runtime\/debug\/59825b92c4228.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c0735766e.data",
+		"oAP": "\/runtime\/debug\/59825b92c4228.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c0f1ec1eb.data": {
+	"\/runtime\/debug\/59825bd05241d.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c0f1ec1eb.data",
+		"oAP": "\/runtime\/debug\/59825bd05241d.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c10419d01.data": {
+	"\/runtime\/debug\/59825bd2f30fd.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c10419d01.data",
+		"oAP": "\/runtime\/debug\/59825bd2f30fd.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c1102b2ce.data": {
+	"\/runtime\/debug\/59825be27e83f.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c1102b2ce.data",
+		"oAP": "\/runtime\/debug\/59825be27e83f.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c118cf309.data": {
+	"\/runtime\/debug\/59825bf1d564a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c118cf309.data",
+		"oAP": "\/runtime\/debug\/59825bf1d564a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c14d61a70.data": {
+	"\/runtime\/debug\/59825bf2653f5.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c14d61a70.data",
+		"oAP": "\/runtime\/debug\/59825bf2653f5.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c17575549.data": {
+	"\/runtime\/debug\/59825bf45d5a8.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c17575549.data",
+		"oAP": "\/runtime\/debug\/59825bf45d5a8.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c1acce6d5.data": {
+	"\/runtime\/debug\/59825bffd40ac.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c1acce6d5.data",
+		"oAP": "\/runtime\/debug\/59825bffd40ac.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c1f9d6cc7.data": {
+	"\/runtime\/debug\/59825c4b3222a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c1f9d6cc7.data",
+		"oAP": "\/runtime\/debug\/59825c4b3222a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c2177f821.data": {
+	"\/runtime\/debug\/59825c4c36211.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c2177f821.data",
+		"oAP": "\/runtime\/debug\/59825c4c36211.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c2486a29b.data": {
+	"\/runtime\/debug\/59825c4ceb79b.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c2486a29b.data",
+		"oAP": "\/runtime\/debug\/59825c4ceb79b.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c24a2cd84.data": {
+	"\/runtime\/debug\/59825c5666fb5.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c24a2cd84.data",
+		"oAP": "\/runtime\/debug\/59825c5666fb5.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c28b731ea.data": {
+	"\/runtime\/debug\/59825c734e4bf.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c28b731ea.data",
+		"oAP": "\/runtime\/debug\/59825c734e4bf.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c2b59ccba.data": {
+	"\/runtime\/debug\/59825c8364b57.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c2b59ccba.data",
+		"oAP": "\/runtime\/debug\/59825c8364b57.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c2ece332d.data": {
+	"\/runtime\/debug\/59825c8493e62.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c2ece332d.data",
+		"oAP": "\/runtime\/debug\/59825c8493e62.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c3375e210.data": {
+	"\/runtime\/debug\/59825ca0919d4.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c3375e210.data",
+		"oAP": "\/runtime\/debug\/59825ca0919d4.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c36bb80f6.data": {
+	"\/runtime\/debug\/59825cbe6503c.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c36bb80f6.data",
+		"oAP": "\/runtime\/debug\/59825cbe6503c.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c3a070e55.data": {
+	"\/runtime\/debug\/59825cc0503b8.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c3a070e55.data",
+		"oAP": "\/runtime\/debug\/59825cc0503b8.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c3ae11f44.data": {
+	"\/runtime\/debug\/59825cc302ec9.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c3ae11f44.data",
+		"oAP": "\/runtime\/debug\/59825cc302ec9.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c3bc1e459.data": {
+	"\/runtime\/debug\/59825cd31bf90.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c3bc1e459.data",
+		"oAP": "\/runtime\/debug\/59825cd31bf90.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c42a7ffde.data": {
+	"\/runtime\/debug\/59825cd4a0308.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c42a7ffde.data",
+		"oAP": "\/runtime\/debug\/59825cd4a0308.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c445b3ba7.data": {
+	"\/runtime\/debug\/59825ce68c7b9.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c445b3ba7.data",
+		"oAP": "\/runtime\/debug\/59825ce68c7b9.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c470acc82.data": {
+	"\/runtime\/debug\/5982610a3883a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c470acc82.data",
+		"oAP": "\/runtime\/debug\/5982610a3883a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c48611bb3.data": {
+	"\/runtime\/debug\/59826112236ed.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c48611bb3.data",
+		"oAP": "\/runtime\/debug\/59826112236ed.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c4977b4df.data": {
+	"\/runtime\/debug\/59826d12b69a2.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c4977b4df.data",
+		"oAP": "\/runtime\/debug\/59826d12b69a2.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c4b1f135f.data": {
+	"\/runtime\/debug\/59826d18304f0.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c4b1f135f.data",
+		"oAP": "\/runtime\/debug\/59826d18304f0.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c4d7477cb.data": {
+	"\/runtime\/debug\/59826d2c9e787.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c4d7477cb.data",
+		"oAP": "\/runtime\/debug\/59826d2c9e787.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c4e7dc40f.data": {
+	"\/runtime\/debug\/59826d2d28eee.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c4e7dc40f.data",
+		"oAP": "\/runtime\/debug\/59826d2d28eee.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c4f12e848.data": {
+	"\/runtime\/debug\/59826d2fa3da0.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c4f12e848.data",
+		"oAP": "\/runtime\/debug\/59826d2fa3da0.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c504e8f72.data": {
+	"\/runtime\/debug\/59826e22c539b.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c504e8f72.data",
+		"oAP": "\/runtime\/debug\/59826e22c539b.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977c51cedbba.data": {
+	"\/runtime\/debug\/59826e23d84c2.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977c51cedbba.data",
+		"oAP": "\/runtime\/debug\/59826e23d84c2.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977caf63c59a.data": {
+	"\/runtime\/debug\/59826e249a4c0.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977caf63c59a.data",
+		"oAP": "\/runtime\/debug\/59826e249a4c0.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977cafaec834.data": {
+	"\/runtime\/debug\/59826e2ee60c0.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cafaec834.data",
+		"oAP": "\/runtime\/debug\/59826e2ee60c0.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977cb723ba25.data": {
+	"\/runtime\/debug\/59826e855be31.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cb723ba25.data",
+		"oAP": "\/runtime\/debug\/59826e855be31.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977cb7971c63.data": {
+	"\/runtime\/debug\/59826e86c865a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cb7971c63.data",
+		"oAP": "\/runtime\/debug\/59826e86c865a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5977cb8d0bf9d.data": {
+	"\/runtime\/debug\/59826ee6575a8.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cb8d0bf9d.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5977cb9fd056c.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cb9fd056c.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5977cbca65b66.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cbca65b66.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5977cbdfe9eff.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cbdfe9eff.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5977cbf493bbc.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cbf493bbc.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5977cc04f0769.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cc04f0769.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5977cc612583d.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cc612583d.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/5977cc77b2919.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/5977cc77b2919.data",
+		"oAP": "\/runtime\/debug\/59826ee6575a8.data",
 		"oF": 0
 		},
 	"\/runtime\/debug\/index.data": {
@@ -719,10 +683,10 @@
 		"oAP": "\/tests\/unit\/models\/UserTest.php",
 		"oF": 0
 		},
-	"\/vendor.zip": {
+	"\/vendor\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/vendor.zip",
+		"oAP": "\/vendor\/.gitignore",
 		"oF": 0
 		},
 	"\/vendor\/autoload.php": {
@@ -39851,16 +39815,22 @@
 		"oAP": "\/views\/site\/inicio.php",
 		"oF": 0
 		},
-	"\/views\/site\/premio.php": {
+	"\/views\/site\/instrucciones.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/views\/site\/premio.php",
+		"oAP": "\/views\/site\/instrucciones.php",
 		"oF": 0
 		},
 	"\/views\/site\/registro.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/site\/registro.php",
+		"oF": 0
+		},
+	"\/views\/site\/verPremio.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/verPremio.php",
 		"oF": 0
 		},
 	"\/web\/.htaccess": {
@@ -39875,80 +39845,311 @@
 		"oAP": "\/web\/assets\/.gitignore",
 		"oF": 0
 		},
-	"\/web\/assets\/4dab42e2\/jquery.js": {
+	"\/web\/assets\/2d1b0cb3\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/4dab42e2\/jquery-min.js",
+		"oAP": "\/web\/assets\/2d1b0cb3\/jquery-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/4dab42e2\/jquery.min.js": {
+	"\/web\/assets\/2d1b0cb3\/jquery.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/4dab42e2\/jquery.min-min.js",
+		"oAP": "\/web\/assets\/2d1b0cb3\/jquery.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/4dab42e2\/jquery.min.map": {
+	"\/web\/assets\/2d1b0cb3\/jquery.min.map": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/web\/assets\/4dab42e2\/jquery.min.map",
+		"oAP": "\/web\/assets\/2d1b0cb3\/jquery.min.map",
 		"oF": 0
 		},
-	"\/web\/assets\/62d76b57\/yii.activeForm.js": {
+	"\/web\/assets\/32355e03\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/62d76b57\/yii.activeForm-min.js",
+		"oAP": "\/web\/assets\/32355e03\/jquery-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/62d76b57\/yii.captcha.js": {
+	"\/web\/assets\/32355e03\/jquery.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/62d76b57\/yii.captcha-min.js",
+		"oAP": "\/web\/assets\/32355e03\/jquery.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/62d76b57\/yii.gridView.js": {
+	"\/web\/assets\/32355e03\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/32355e03\/jquery.min.map",
+		"oF": 0
+		},
+	"\/web\/assets\/5ffe877d\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/62d76b57\/yii.gridView-min.js",
+		"oAP": "\/web\/assets\/5ffe877d\/jquery-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/62d76b57\/yii.js": {
+	"\/web\/assets\/5ffe877d\/jquery.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/62d76b57\/yii-min.js",
+		"oAP": "\/web\/assets\/5ffe877d\/jquery.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/web\/assets\/62d76b57\/yii.validation.js": {
+	"\/web\/assets\/5ffe877d\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/5ffe877d\/jquery.min.map",
+		"oF": 0
+		},
+	"\/web\/assets\/81cf4518\/yii.activeForm.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/web\/assets\/62d76b57\/yii.validation-min.js",
+		"oAP": "\/web\/assets\/81cf4518\/yii.activeForm-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/web\/assets\/81cf4518\/yii.captcha.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/81cf4518\/yii.captcha-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/81cf4518\/yii.gridView.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/81cf4518\/yii.gridView-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/81cf4518\/yii.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/81cf4518\/yii-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/81cf4518\/yii.validation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/81cf4518\/yii.validation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii.activeForm-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.activeForm-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii.activeForm.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.activeForm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii.captcha-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.captcha-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii.captcha.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.captcha-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii.gridView-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.gridView-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii.gridView.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.gridView-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii.validation-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.validation-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/af5836a5\/yii.validation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.validation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/d9dd6428\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/d9dd6428\/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/d9dd6428\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/d9dd6428\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/d9dd6428\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/d9dd6428\/jquery.min.map",
+		"oF": 0
+		},
+	"\/web\/assets\/e8b6e567\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/e8b6e567\/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/e8b6e567\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/e8b6e567\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/e8b6e567\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/e8b6e567\/jquery.min.map",
+		"oF": 0
+		},
+	"\/web\/assets\/eb172c8e\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/eb172c8e\/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/eb172c8e\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/eb172c8e\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/eb172c8e\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/eb172c8e\/jquery.min.map",
+		"oF": 0
 		},
 	"\/web\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/web\/favicon.ico",
 		"oF": 0
+		},
+	"\/web\/images\/img_avatar2.png": {
+		"ft": 32768,
+		"iS": 8314,
+		"oA": 0,
+		"oAP": "\/web\/images\/img_avatar2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/images\/large_pic_575706fb9b76f-2.jpg": {
+		"ft": 16384,
+		"iS": 60717,
+		"oA": 0,
+		"oAP": "\/web\/images\/large_pic_575706fb9b76f-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/web\/index-test.php": {
 		"ft": 8192,
@@ -39977,6 +40178,16 @@
 		"oAP": "\/web\/webAssets\/css\/ionicons.min-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/web\/webAssets\/css\/jquery.jqpuzzle.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/css\/jquery.jqpuzzle-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/web\/webAssets\/css\/site.css": {
 		"aP": 1,
@@ -40038,6 +40249,17 @@
 		"iS": 328,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/check-box.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/cupon.png": {
+		"ft": 32768,
+		"iS": 75020,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/cupon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -40110,12 +40332,30 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/web\/webAssets\/js\/jquery-1.2.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/js\/jquery-1.2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/web\/webAssets\/js\/jquery-3.1.1.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/js\/jquery-3.1.1.min-min.js",
 		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/web\/webAssets\/js\/jquery.jqpuzzle.full.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/web\/webAssets\/js\/jquery.jqpuzzle.full-min.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
@@ -40320,7 +40560,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 516643881,
-	"displayValue": "wwwGreenKatedra",
+	"displayValue": "wwwGreenJuegosRestaurantes",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-hart"
 	},
