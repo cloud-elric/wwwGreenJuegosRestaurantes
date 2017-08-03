@@ -215,7 +215,7 @@ private function getShortUrl($url) {
 	 * Descarga un csv con la informacion necesaria
 	 */
 	public function actionDescargarRegistros3289lsdfadsd33k9ffd3jl(){
-		$usuarios = EntUsuarios::find()->all();
+		$usuarios = ViewUsuarioDatos::find()->all();
 
 		$arrayCsv = [ ];
 		$i = 0;
@@ -223,12 +223,13 @@ private function getShortUrl($url) {
 		foreach ( $usuarios as $data ) {
 
 			$arrayCsv [$i] ['nombreCompleto'] = $data->txt_nombre_completo;
+			$arrayCsv [$i] ['nombreRestaurante'] = $data->txt_nombre_restaurante;
 			$arrayCsv [$i] ['telefonoCelular'] = $data->txt_telefono_celular;
-			$arrayCsv [$i] ['email'] = $data->txt_email;
-			$arrayCsv [$i] ['txtEmpresa'] = $data->txt_empresa;
+			$arrayCsv [$i] ['codigoPostal'] = $data->txt_cp;
+			$arrayCsv [$i] ['numEdad'] = $data->num_edad;
 			$arrayCsv [$i] ['fchRegistro'] = $data->fch_registro;
-			$arrayCsv [$i] ['cargo'] = $data->txt_cargo;
-			$arrayCsv [$i] ['gano'] = $data->b_gano?'Si':'No';
+			$arrayCsv [$i] ['aceptoTerminos'] = $data->acepto_terminos;
+			$arrayCsv [$i] ['premio'] = $data->txt_premio;
 
 
 			$i++;
@@ -253,12 +254,13 @@ private function getShortUrl($url) {
 		$df = fopen ( "php://output", "w" );
 		fputcsv ( $df, [
 				'Nombre completo',
+				'Nombre restaurante',				
 				'Telefono',
-				'Email',
-				'Empresa',
+				'C.P.',
+				'Edad',
 				'Fecha registro',
-				'Cargo',
-				'Gano?'
+				'Acepto terminos',
+				'Premio'
 		]
 		 );
 
