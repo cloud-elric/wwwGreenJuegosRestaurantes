@@ -216,6 +216,605 @@
 		"oF": 0
 		},
 	"\/runtime\/debug\/59825a07478e1.data": {
+<<<<<<< HEAD
+=======
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a07478e1.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a0769705.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a0769705.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a08575da.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a08575da.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a0880020.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a0880020.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a23a81de.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a23a81de.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a23e681a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a23e681a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a249e346.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a249e346.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a24c5eaa.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a24c5eaa.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a43d21f4.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a43d21f4.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a4746859.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a4746859.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a7834119.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a7834119.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a78c07a5.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a78c07a5.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825a7a7143d.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825a7a7143d.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825ad66e2ed.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825ad66e2ed.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825ad78eebc.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825ad78eebc.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825ad848101.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825ad848101.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825b92c4228.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825b92c4228.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825bd05241d.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825bd05241d.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825bd2f30fd.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825bd2f30fd.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825be27e83f.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825be27e83f.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825bf1d564a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825bf1d564a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825bf2653f5.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825bf2653f5.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825bf45d5a8.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825bf45d5a8.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825bffd40ac.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825bffd40ac.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825c4b3222a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825c4b3222a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825c4c36211.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825c4c36211.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825c4ceb79b.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825c4ceb79b.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825c5666fb5.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825c5666fb5.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825c734e4bf.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825c734e4bf.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825c8364b57.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825c8364b57.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825c8493e62.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825c8493e62.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825ca0919d4.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825ca0919d4.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825cbe6503c.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825cbe6503c.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825cc0503b8.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825cc0503b8.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825cc302ec9.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825cc302ec9.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825cd31bf90.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825cd31bf90.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825cd4a0308.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825cd4a0308.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59825ce68c7b9.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59825ce68c7b9.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/5982610a3883a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/5982610a3883a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826112236ed.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826112236ed.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826d12b69a2.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826d12b69a2.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826d18304f0.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826d18304f0.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826d2c9e787.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826d2c9e787.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826d2d28eee.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826d2d28eee.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826d2fa3da0.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826d2fa3da0.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826e22c539b.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826e22c539b.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826e23d84c2.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826e23d84c2.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826e249a4c0.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826e249a4c0.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826e2ee60c0.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826e2ee60c0.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826e855be31.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826e855be31.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826e86c865a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826e86c865a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/59826ee6575a8.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/59826ee6575a8.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/index.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/index.data",
+		"oF": 0
+		},
+	"\/runtime\/logs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/runtime\/logs",
+		"oF": 0
+		},
+	"\/tests\/_bootstrap.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/tests\/_bootstrap.php",
+		"oF": 0
+		},
+	"\/tests\/_data\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/_data\/.gitignore",
+		"oF": 0
+		},
+	"\/tests\/_output\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/_output\/.gitignore",
+		"oF": 0
+		},
+	"\/tests\/_support\/AcceptanceTester.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/_support\/AcceptanceTester.php",
+		"oF": 0
+		},
+	"\/tests\/_support\/FunctionalTester.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/_support\/FunctionalTester.php",
+		"oF": 0
+		},
+	"\/tests\/_support\/UnitTester.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/_support\/UnitTester.php",
+		"oF": 0
+		},
+	"\/tests\/acceptance.suite.yml.example": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/acceptance.suite.yml.example",
+		"oF": 0
+		},
+	"\/tests\/acceptance\/_bootstrap.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/tests\/acceptance\/_bootstrap.php",
+		"oF": 0
+		},
+	"\/tests\/acceptance\/AboutCest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/acceptance\/AboutCest.php",
+		"oF": 0
+		},
+	"\/tests\/acceptance\/ContactCest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/acceptance\/ContactCest.php",
+		"oF": 0
+		},
+	"\/tests\/acceptance\/HomeCest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/acceptance\/HomeCest.php",
+		"oF": 0
+		},
+	"\/tests\/acceptance\/LoginCest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/acceptance\/LoginCest.php",
+		"oF": 0
+		},
+	"\/tests\/bin\/yii": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/bin\/yii",
+		"oF": 0
+		},
+	"\/tests\/bin\/yii.bat": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/bin\/yii.bat",
+		"oF": 0
+		},
+	"\/tests\/functional.suite.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/functional.suite.yml",
+		"oF": 0
+		},
+	"\/tests\/functional\/_bootstrap.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/tests\/functional\/_bootstrap.php",
+		"oF": 0
+		},
+	"\/tests\/functional\/ContactFormCest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/functional\/ContactFormCest.php",
+		"oF": 0
+		},
+	"\/tests\/functional\/LoginFormCest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/functional\/LoginFormCest.php",
+		"oF": 0
+		},
+	"\/tests\/unit.suite.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/unit.suite.yml",
+		"oF": 0
+		},
+	"\/tests\/unit\/_bootstrap.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/tests\/unit\/_bootstrap.php",
+		"oF": 0
+		},
+	"\/tests\/unit\/models\/ContactFormTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/unit\/models\/ContactFormTest.php",
+		"oF": 0
+		},
+	"\/tests\/unit\/models\/LoginFormTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/unit\/models\/LoginFormTest.php",
+		"oF": 0
+		},
+	"\/tests\/unit\/models\/UserTest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tests\/unit\/models\/UserTest.php",
+		"oF": 0
+		},
+	"\/vendor\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/.gitignore",
+		"oF": 0
+		},
+	"\/vendor\/autoload.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/autoload.php",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/behat\/gherkin\/.gitignore",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/behat\/gherkin\/.travis.yml",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/bin\/update_i18n": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/behat\/gherkin\/bin\/update_i18n",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/CHANGES.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/behat\/gherkin\/CHANGES.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/behat\/gherkin\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/vendor\/behat\/gherkin\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/vendor\/behat\/gherkin\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/behat\/gherkin\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/behat\/gherkin\/i18n.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/behat\/gherkin\/i18n.php",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/libpath.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/behat\/gherkin\/libpath.php",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/behat\/gherkin\/LICENSE",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/package.xml.tpl": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/behat\/gherkin\/package.xml.tpl",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/phpdoc.ini.dist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/behat\/gherkin\/phpdoc.ini.dist",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/phpunit.xml.dist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/behat\/gherkin\/phpunit.xml.dist",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/vendor\/behat\/gherkin\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/vendor\/behat\/gherkin\/src\/Behat\/Gherkin\/Cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/vendor\/behat\/gherkin\/src\/Behat\/Gherkin\/Cache",
+		"oF": 0
+		},
+	"\/vendor\/behat\/gherkin\/src\/Behat\/Gherkin\/Exception\/CacheException.php": {
+>>>>>>> master
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/runtime\/debug\/59825a07478e1.data",
@@ -34697,6 +35296,12 @@
 		"oF": 0
 		},
 	"\/web\/assets\/2d1b0cb3\/jquery.js": {
+<<<<<<< HEAD
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/2d1b0cb3\/jquery-min.js",
+=======
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
@@ -34749,19 +35354,41 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/5ffe877d\/jquery-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/2d1b0cb3\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/2d1b0cb3\/jquery.min-min.js",
+=======
 	"\/web\/assets\/5ffe877d\/jquery.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/5ffe877d\/jquery.min-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/2d1b0cb3\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/2d1b0cb3\/jquery.min.map",
+		"oF": 0
+		},
+	"\/web\/assets\/32355e03\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/32355e03\/jquery-min.js",
+=======
 	"\/web\/assets\/5ffe877d\/jquery.min.map": {
 		"ft": 8192,
 		"oA": 2,
@@ -34773,37 +35400,81 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/81cf4518\/yii.activeForm-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/32355e03\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/32355e03\/jquery.min-min.js",
+=======
 	"\/web\/assets\/81cf4518\/yii.captcha.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/81cf4518\/yii.captcha-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/32355e03\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/32355e03\/jquery.min.map",
+		"oF": 0
+		},
+	"\/web\/assets\/5ffe877d\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/5ffe877d\/jquery-min.js",
+=======
 	"\/web\/assets\/81cf4518\/yii.gridView.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/81cf4518\/yii.gridView-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/5ffe877d\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/5ffe877d\/jquery.min-min.js",
+=======
 	"\/web\/assets\/81cf4518\/yii.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/81cf4518\/yii-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/5ffe877d\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/5ffe877d\/jquery.min.map",
+		"oF": 0
+		},
+	"\/web\/assets\/81cf4518\/yii.activeForm.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/81cf4518\/yii.activeForm-min.js",
+=======
 	"\/web\/assets\/81cf4518\/yii.validation.js": {
 		"ft": 64,
 		"mi": 1,
@@ -34818,100 +35489,279 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii-min-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/81cf4518\/yii.captcha.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/81cf4518\/yii.captcha-min.js",
+=======
 	"\/web\/assets\/af5836a5\/yii.activeForm-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii.activeForm-min-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/81cf4518\/yii.gridView.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/81cf4518\/yii.gridView-min.js",
+=======
 	"\/web\/assets\/af5836a5\/yii.activeForm.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii.activeForm-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/81cf4518\/yii.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/81cf4518\/yii-min.js",
+=======
 	"\/web\/assets\/af5836a5\/yii.captcha-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii.captcha-min-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/81cf4518\/yii.validation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/81cf4518\/yii.validation-min.js",
+=======
 	"\/web\/assets\/af5836a5\/yii.captcha.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii.captcha-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii-min-min.js",
+=======
 	"\/web\/assets\/af5836a5\/yii.gridView-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii.gridView-min-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii.activeForm-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.activeForm-min-min.js",
+=======
 	"\/web\/assets\/af5836a5\/yii.gridView.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii.gridView-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii.activeForm.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.activeForm-min.js",
+=======
 	"\/web\/assets\/af5836a5\/yii.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii.captcha-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.captcha-min-min.js",
+=======
 	"\/web\/assets\/af5836a5\/yii.validation-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii.validation-min-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii.captcha.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.captcha-min.js",
+=======
 	"\/web\/assets\/af5836a5\/yii.validation.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/af5836a5\/yii.validation-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii.gridView-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.gridView-min-min.js",
+=======
 	"\/web\/assets\/d9dd6428\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/d9dd6428\/jquery-min.js",
+>>>>>>> master
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii.gridView.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.gridView-min.js",
+=======
+	"\/web\/assets\/d9dd6428\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/d9dd6428\/jquery.min-min.js",
+>>>>>>> master
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii-min.js",
+=======
+	"\/web\/assets\/d9dd6428\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/d9dd6428\/jquery.min.map",
+		"oF": 0
+		},
+	"\/web\/assets\/e8b6e567\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/e8b6e567\/jquery-min.js",
+>>>>>>> master
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii.validation-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.validation-min-min.js",
+=======
+	"\/web\/assets\/e8b6e567\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/e8b6e567\/jquery.min-min.js",
+>>>>>>> master
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+<<<<<<< HEAD
+	"\/web\/assets\/af5836a5\/yii.validation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/af5836a5\/yii.validation-min.js",
+=======
+	"\/web\/assets\/e8b6e567\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/e8b6e567\/jquery.min.map",
+		"oF": 0
+		},
+	"\/web\/assets\/eb172c8e\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/eb172c8e\/jquery-min.js",
+>>>>>>> master
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+<<<<<<< HEAD
+	"\/web\/assets\/d9dd6428\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/d9dd6428\/jquery-min.js",
+=======
+	"\/web\/assets\/eb172c8e\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/eb172c8e\/jquery.min-min.js",
+>>>>>>> master
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+<<<<<<< HEAD
 	"\/web\/assets\/d9dd6428\/jquery.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -34945,6 +35795,8 @@
 		"sC": 1,
 		"tS": 0
 		},
+=======
+>>>>>>> master
 	"\/web\/assets\/eb172c8e\/jquery.min.map": {
 		"ft": 8192,
 		"oA": 2,

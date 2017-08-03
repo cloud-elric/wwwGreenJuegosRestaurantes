@@ -47,9 +47,8 @@ Temporary Items
 .apdisk
 
 
-#Vendor Folder
-vendor
-/vendor
-./vendor
+#Vendor Folder Ignore
 
 vendor.zip
+vendor
+/vendor
