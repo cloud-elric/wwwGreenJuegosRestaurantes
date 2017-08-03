@@ -30,10 +30,11 @@ $this->title="Gano perdio";
 			success: {
                 callback: function(results) {
 					var count = $("#imagen-puzzle input").val();
+					var minutos = count/60;
 					//swal("Good job!", "Tu tiempo fue de "+count+" segundos", "success");
 					swal({
 						title: "Buen trabajo!!",
-						text: "Tu tiempo fue de "+count+" segundos!",
+						text: "Tu tiempo fue de "+minutos.toFixed(1)+" minutos!",
 						type: "success",
 						showCancelButton: false,
 						confirmButtonColor: "#F08D27",
