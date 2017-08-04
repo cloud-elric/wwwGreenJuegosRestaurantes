@@ -11,4 +11,5 @@ class WebConstantes{
     const DESCUENTO = 7;
 
     const TIEMPO_PREMIO_MAYOR = "120";
+    const TEST = NULL;
 }
