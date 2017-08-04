@@ -376,8 +376,36 @@ private function getShortUrl($url) {
 
 		
 		return $this->render('verPremio', [
-			'premio' => $relPremio->idPremio
+			'premio' => $relPremio->idPremio,
+			'token'=>$token
 		]);
 	}
+
+	public function actionImprimirCertificado($token) {
+    $relPremio = RelUsuarioPremio::find()->where(['txt_token'=>$token])->one();
+
+	if($relPremio){
+
+		if($relPremio->id_premio == WebConstantes::DOS_POR_UNO){
+			$nombreArchivo = "cert2x1.pdf";
+		}else if($relPremio->id_premio == WebConstantes::DESCUENTO){
+			$nombreArchivo = "cert40.pdf";
+		}
+
+		// This will need to be the path relative to the root of your app.
+		$filePath = '/web/certificados/';
+		$completePath = Yii::getAlias('@app'.$filePath.$nombreArchivo);
+
+		// Descarga archivo
+		//return Yii::$app->response->sendFile($completePath,$nombreArchivo);
+		// muestra archivo
+		return Yii::$app->response->sendFile($completePath,$nombreArchivo, ['inline'=>true]);
+
+
+
+	}
+
+    
+}
 
 }
