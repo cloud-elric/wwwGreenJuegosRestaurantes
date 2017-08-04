@@ -350,6 +350,10 @@ private function getShortUrl($url) {
 			$usuario = EntUsuarios::find()->where(['txt_token'=>$_POST['token']])->one();
 			if($usuario){
 
+
+				$usuario->b_tiempo = $_POST['tiempo'];
+				if($usuario->save()){
+
 				if($usuario->b_tiempo < WebConstantes::TIEMPO_PREMIO_MAYOR){
 					$idPremio = WebConstantes::DOS_POR_UNO;
 				}else{
@@ -363,8 +367,6 @@ private function getShortUrl($url) {
 				$relPremioUsuario->fch_premio = $this->getFechaActual();
 				$relPremioUsuario->save();
 
-				$usuario->b_tiempo = $_POST['tiempo'];
-				if($usuario->save()){
 					return ['status' => 'success'];
 				}
 			}
