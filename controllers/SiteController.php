@@ -85,7 +85,7 @@ class SiteController extends Controller {
 			$usuario->id_restaurante = WebConstantes::ENTRE_FUEGOS;
 			$cupon = CatCupones::find()->where(['txt_cupon'=>$usuario->txt_codigo])->one();
 			if($cupon){
-				$cuponUsado = EntUsuarios::find()->where(['id_cupon'=>$cupon->id_cupon])->one();
+				$cuponUsado = EntUsuarios::find()->where(['id_cupon'=>$cupon->id_cupon])->andWhere(['id_restaurante'=>WebConstantes::ENTRE_FUEGOS])->one();
 				if(!$cuponUsado){
 				$usuario->id_cupon = $cupon->id_cupon;
 				$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;

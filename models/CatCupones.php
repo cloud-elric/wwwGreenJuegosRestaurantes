@@ -8,9 +8,11 @@ use Yii;
  * This is the model class for table "cat_cupones".
  *
  * @property string $id_cupon
+ * @property string $id_restaurante
  * @property string $txt_cupon
  * @property integer $b_usado
  *
+ * @property CatRestaurantes $idRestaurante
  * @property EntUsuarios[] $entUsuarios
  */
 class CatCupones extends \yii\db\ActiveRecord
@@ -29,9 +31,10 @@ class CatCupones extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['txt_cupon'], 'required'],
-            [['b_usado'], 'integer'],
+            [['id_restaurante', 'txt_cupon'], 'required'],
+            [['id_restaurante', 'b_usado'], 'integer'],
             [['txt_cupon'], 'string', 'max' => 50],
+            [['id_restaurante'], 'exist', 'skipOnError' => true, 'targetClass' => CatRestaurantes::className(), 'targetAttribute' => ['id_restaurante' => 'id_restaurante']],
         ];
     }
 
@@ -42,9 +45,18 @@ class CatCupones extends \yii\db\ActiveRecord
     {
         return [
             'id_cupon' => 'Id Cupon',
+            'id_restaurante' => 'Id Restaurante',
             'txt_cupon' => 'Txt Cupon',
             'b_usado' => 'B Usado',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getIdRestaurante()
+    {
+        return $this->hasOne(CatRestaurantes::className(), ['id_restaurante' => 'id_restaurante']);
     }
 
     /**
