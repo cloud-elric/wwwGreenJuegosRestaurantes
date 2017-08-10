@@ -14,6 +14,7 @@ use app\models\RelUsuarioPremio;
 use app\models\ViewUsuarioDatos;
 use yii\web\Response;
 use app\models\WebConstantes;
+use app\models\CatCupones;
 
 class SiteController extends Controller {
 	public $enableCsrfValidation = false;
@@ -82,10 +83,21 @@ class SiteController extends Controller {
 		if ($usuario->load ( Yii::$app->request->post () )) {
 			// Asigna el restaurante
 			$usuario->id_restaurante = WebConstantes::ENTRE_FUEGOS;
-			$usuario->txt_token = "usr_" . md5 ( uniqid ( "usr_" ) ) . uniqid ();
-			if ($usuario->save ()) {
+			$cupon = CatCupones::find()->where(['txt_cupon'=>$usuario->txt_codigo])->one();
+			if($cupon){
+				$cuponUsado = EntUsuarios::find()->where(['id_cupon'=>$cupon->id_cupon])->andWhere(['id_restaurante'=>WebConstantes::ENTRE_FUEGOS])->one();
+				if(!$cuponUsado){
+				$usuario->id_cupon = $cupon->id_cupon;
+				$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;
+				if ($usuario->save ()) {
 
-				return $this->redirect(['instrucciones', 'token'=>$usuario->txt_token]);
+					return $this->redirect(['instrucciones', 'token'=>$usuario->txt_token]);
+					}
+				}else{
+					$usuario->addError('txt_codigo', 'Código no válido');
+				}				
+			}else{
+				$usuario->addError('txt_codigo', 'Código no válido');				
 			}
 		}
 
