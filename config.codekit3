@@ -233,340 +233,316 @@
 		"oAP": "\/runtime\/.gitignore",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993431dc0393.data": {
+	"\/runtime\/debug\/59934d9e0b0af.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993431dc0393.data",
+		"oAP": "\/runtime\/debug\/59934d9e0b0af.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993435006120.data": {
+	"\/runtime\/debug\/59934d9f1012c.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993435006120.data",
+		"oAP": "\/runtime\/debug\/59934d9f1012c.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993435102674.data": {
+	"\/runtime\/debug\/59934da23ae6f.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993435102674.data",
+		"oAP": "\/runtime\/debug\/59934da23ae6f.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599343553b2b6.data": {
+	"\/runtime\/debug\/59934dbd49e24.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599343553b2b6.data",
+		"oAP": "\/runtime\/debug\/59934dbd49e24.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/59934363a935e.data": {
+	"\/runtime\/debug\/59934dcb6f05d.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934363a935e.data",
+		"oAP": "\/runtime\/debug\/59934dcb6f05d.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993436686cd2.data": {
+	"\/runtime\/debug\/59934e19e0b67.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993436686cd2.data",
+		"oAP": "\/runtime\/debug\/59934e19e0b67.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599343761d1dd.data": {
+	"\/runtime\/debug\/59934e6876e6e.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599343761d1dd.data",
+		"oAP": "\/runtime\/debug\/59934e6876e6e.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993437e95c21.data": {
+	"\/runtime\/debug\/59934e8243166.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993437e95c21.data",
+		"oAP": "\/runtime\/debug\/59934e8243166.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993439145385.data": {
+	"\/runtime\/debug\/59934fe13de25.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993439145385.data",
+		"oAP": "\/runtime\/debug\/59934fe13de25.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599343deb8958.data": {
+	"\/runtime\/debug\/5993500475646.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599343deb8958.data",
+		"oAP": "\/runtime\/debug\/5993500475646.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599343df883fe.data": {
+	"\/runtime\/debug\/59935005309f5.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599343df883fe.data",
+		"oAP": "\/runtime\/debug\/59935005309f5.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599344932218c.data": {
+	"\/runtime\/debug\/599350056f8eb.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599344932218c.data",
+		"oAP": "\/runtime\/debug\/599350056f8eb.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993455c4b2c8.data": {
+	"\/runtime\/debug\/59935005c4c08.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993455c4b2c8.data",
+		"oAP": "\/runtime\/debug\/59935005c4c08.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993458965c96.data": {
+	"\/runtime\/debug\/599350089d4d2.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993458965c96.data",
+		"oAP": "\/runtime\/debug\/599350089d4d2.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993459057eed.data": {
+	"\/runtime\/debug\/5993500e7b73a.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993459057eed.data",
+		"oAP": "\/runtime\/debug\/5993500e7b73a.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599345b903e4d.data": {
+	"\/runtime\/debug\/5993501fbc0c2.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599345b903e4d.data",
+		"oAP": "\/runtime\/debug\/5993501fbc0c2.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599345c285805.data": {
+	"\/runtime\/debug\/599350ed26e5e.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599345c285805.data",
+		"oAP": "\/runtime\/debug\/599350ed26e5e.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599345d6d80fe.data": {
+	"\/runtime\/debug\/599350f9e2b6c.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599345d6d80fe.data",
+		"oAP": "\/runtime\/debug\/599350f9e2b6c.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993466b038f0.data": {
+	"\/runtime\/debug\/59935102066e6.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993466b038f0.data",
+		"oAP": "\/runtime\/debug\/59935102066e6.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599346a4cb856.data": {
+	"\/runtime\/debug\/5993510aeeb69.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599346a4cb856.data",
+		"oAP": "\/runtime\/debug\/5993510aeeb69.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599346b00bc7f.data": {
+	"\/runtime\/debug\/5993514267a7d.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599346b00bc7f.data",
+		"oAP": "\/runtime\/debug\/5993514267a7d.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599346c3ce174.data": {
+	"\/runtime\/debug\/59935143b26f1.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599346c3ce174.data",
+		"oAP": "\/runtime\/debug\/59935143b26f1.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993475401761.data": {
+	"\/runtime\/debug\/5993514ddc2a8.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993475401761.data",
+		"oAP": "\/runtime\/debug\/5993514ddc2a8.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599347a07f2f5.data": {
+	"\/runtime\/debug\/5993514e933a4.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599347a07f2f5.data",
+		"oAP": "\/runtime\/debug\/5993514e933a4.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599347b68dac8.data": {
+	"\/runtime\/debug\/599351ee8db0e.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599347b68dac8.data",
+		"oAP": "\/runtime\/debug\/599351ee8db0e.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599347bf16e17.data": {
+	"\/runtime\/debug\/599351efd9c10.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599347bf16e17.data",
+		"oAP": "\/runtime\/debug\/599351efd9c10.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599347cb418e2.data": {
+	"\/runtime\/debug\/599352421b5fb.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599347cb418e2.data",
+		"oAP": "\/runtime\/debug\/599352421b5fb.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599347faaf6a5.data": {
+	"\/runtime\/debug\/59935242f07c5.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599347faaf6a5.data",
+		"oAP": "\/runtime\/debug\/59935242f07c5.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599347fe3f3cf.data": {
+	"\/runtime\/debug\/59935303692ad.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599347fe3f3cf.data",
+		"oAP": "\/runtime\/debug\/59935303692ad.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/59934811e7b0b.data": {
+	"\/runtime\/debug\/5993530566aca.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934811e7b0b.data",
+		"oAP": "\/runtime\/debug\/5993530566aca.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599348345b5d3.data": {
+	"\/runtime\/debug\/5993530617f95.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599348345b5d3.data",
+		"oAP": "\/runtime\/debug\/5993530617f95.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599348ad5e11f.data": {
+	"\/runtime\/debug\/599353547ce57.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599348ad5e11f.data",
+		"oAP": "\/runtime\/debug\/599353547ce57.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599348c02f65a.data": {
+	"\/runtime\/debug\/599353c7e7cb6.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599348c02f65a.data",
+		"oAP": "\/runtime\/debug\/599353c7e7cb6.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599348da70f1e.data": {
+	"\/runtime\/debug\/5993554b92ec4.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599348da70f1e.data",
+		"oAP": "\/runtime\/debug\/5993554b92ec4.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599348db08262.data": {
+	"\/runtime\/debug\/599356b930b5e.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599348db08262.data",
+		"oAP": "\/runtime\/debug\/599356b930b5e.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993492580550.data": {
+	"\/runtime\/debug\/5993576c5b41e.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993492580550.data",
+		"oAP": "\/runtime\/debug\/5993576c5b41e.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/59934940cd205.data": {
+	"\/runtime\/debug\/599357877d0bf.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934940cd205.data",
+		"oAP": "\/runtime\/debug\/599357877d0bf.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993495c93296.data": {
+	"\/runtime\/debug\/599357aa45f2b.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993495c93296.data",
+		"oAP": "\/runtime\/debug\/599357aa45f2b.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993497787c29.data": {
+	"\/runtime\/debug\/599357f2cb6cd.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993497787c29.data",
+		"oAP": "\/runtime\/debug\/599357f2cb6cd.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/5993497b5959c.data": {
+	"\/runtime\/debug\/5993581daca94.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/5993497b5959c.data",
+		"oAP": "\/runtime\/debug\/5993581daca94.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599349818379c.data": {
+	"\/runtime\/debug\/599358306a388.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599349818379c.data",
+		"oAP": "\/runtime\/debug\/599358306a388.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599349b081b52.data": {
+	"\/runtime\/debug\/59935845dcf30.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599349b081b52.data",
+		"oAP": "\/runtime\/debug\/59935845dcf30.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599349b62a1eb.data": {
+	"\/runtime\/debug\/5993584d44e39.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599349b62a1eb.data",
+		"oAP": "\/runtime\/debug\/5993584d44e39.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599349b9787e3.data": {
+	"\/runtime\/debug\/599358c66e7cf.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599349b9787e3.data",
+		"oAP": "\/runtime\/debug\/599358c66e7cf.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599349c89d3fd.data": {
+	"\/runtime\/debug\/599358ed86370.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599349c89d3fd.data",
+		"oAP": "\/runtime\/debug\/599358ed86370.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599349dca845a.data": {
+	"\/runtime\/debug\/599359058e858.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599349dca845a.data",
+		"oAP": "\/runtime\/debug\/599359058e858.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599349f3054dd.data": {
+	"\/runtime\/debug\/5993591d09d4d.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599349f3054dd.data",
+		"oAP": "\/runtime\/debug\/5993591d09d4d.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/599349f813069.data": {
+	"\/runtime\/debug\/599359502b363.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/599349f813069.data",
+		"oAP": "\/runtime\/debug\/599359502b363.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/59934a0cbbca8.data": {
+	"\/runtime\/debug\/599359847579c.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934a0cbbca8.data",
+		"oAP": "\/runtime\/debug\/599359847579c.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/59934a1bc0a6d.data": {
+	"\/runtime\/debug\/5993598ccb1b3.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934a1bc0a6d.data",
+		"oAP": "\/runtime\/debug\/5993598ccb1b3.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/59934a33b0224.data": {
+	"\/runtime\/debug\/59935999abd5e.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934a33b0224.data",
+		"oAP": "\/runtime\/debug\/59935999abd5e.data",
 		"oF": 0
 		},
-	"\/runtime\/debug\/59934a3788a7f.data": {
+	"\/runtime\/debug\/599359ae32947.data": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934a3788a7f.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59934a531f566.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934a531f566.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59934a59e6ffc.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934a59e6ffc.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59934a7b348ec.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934a7b348ec.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/59934ab278e5a.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/59934ab278e5a.data",
+		"oAP": "\/runtime\/debug\/599359ae32947.data",
 		"oF": 0
 		},
 	"\/runtime\/debug\/index.data": {
@@ -40324,6 +40300,17 @@
 		"iS": 584168,
 		"oA": 0,
 		"oAP": "\/web\/webAssets\/images\/fondorestaurante.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/web\/webAssets\/images\/imagen-rompecabezas-fake.png": {
+		"ft": 32768,
+		"iS": 68374,
+		"oA": 0,
+		"oAP": "\/web\/webAssets\/images\/imagen-rompecabezas-fake.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

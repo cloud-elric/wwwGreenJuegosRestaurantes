@@ -321,7 +321,7 @@ $.fn.jqPuzzle = function(settings, texts) {
 			var mi_imagen = $("#imagen-puzzle1");
 
 			// pieces width and height, based on original image size
-			var width  = Math.floor((mi_imagen.width()-coveredWidth) / cols);
+			var width  = Math.floor((mi_imagen.width()-coveredWidth - 30) / cols);
 			var height = Math.floor((mi_imagen.height()-coveredHeight) / rows);
 
 			//var width  = Math.floor(($srcImg.width()-coveredWidth) / cols);
@@ -527,7 +527,7 @@ $.fn.jqPuzzle = function(settings, texts) {
 					padding: computedStyles.wrapper.padding,
 					margin: 0,
 					position: 'relative',
-					overflow: 'hidden',
+					overflow: 'auto',
 					display: 'block',
 					visibility: 'inherit'
 				});
@@ -543,11 +543,12 @@ $.fn.jqPuzzle = function(settings, texts) {
 					margin: 0,
 					padding: 0,
 					position: 'absolute',
-					overflow: 'hidden',
+					overflow: 'auto',
 					display: 'block',
 					visibility: 'inherit',
 					cursor: 'default'
 				})
+				.css("background-size", fullWidth + 'px ' + fullHeight + 'px')
 				.append($('<span/>')); // will hold the numbers
 
 			// create pieces inside wrapper
@@ -605,6 +606,7 @@ $.fn.jqPuzzle = function(settings, texts) {
 					position: 'absolute',
 					opacity: style.backgroundOpacity
 				})
+				.css("background-size",fullWidth + 'px ' + fullHeight + 'px')
 				.prependTo($wrapper);
 
 			// create controls which will hold the buttons and the display
@@ -724,7 +726,6 @@ $.fn.jqPuzzle = function(settings, texts) {
 					width: fullWidth + 2*(computedStyles.wrapper.padding + computedStyles.wrapper.border) + boxModelHack.gui.width,
 					height: fullHeight + 2*(computedStyles.wrapper.padding + computedStyles.wrapper.border) + boxModelHack.gui.height,
 					textAlign: 'left',
-					overflow: 'hidden',
 					display: 'block'
 				})
 				.append($wrapper).append($panel);
