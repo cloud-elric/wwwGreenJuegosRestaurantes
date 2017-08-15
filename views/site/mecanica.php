@@ -9,16 +9,14 @@ $this->title="Gano perdio";
 	visibility: none !important;
 }
 </style>
-	<img id="imagen-puzzle1" style="width:50%; display:none" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzldd" />	
+
+	<img class="img-fullscreen" id="imagen-puzzle1" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="">
 
 <div class="container container-ribbon">
-<<<<<<< HEAD
-	<img id="imagen-puzzle" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" height="500" width="500"/>
-	<a id="js_comenzar" class="btn btn-secondary btn-mecanica-comenzar" href="#">Comenzar</a>
-=======
-	<img id="imagen-puzzle" style="width:50%" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" />
+
+	<img id="imagen-puzzle" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" />
 	<a id="js_comenzar" class="btn btn-secondary" href="#">Comenzar</a>
->>>>>>> master
+
 </div>
 
 <script type="text/javascript">
