@@ -137,6 +137,12 @@
 		"oAP": "\/models\/CatPremios.php",
 		"oF": 0
 		},
+	"\/models\/CatRestaurantes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/models\/CatRestaurantes.php",
+		"oF": 0
+		},
 	"\/models\/ContactForm.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -39851,6 +39857,12 @@
 		"oAP": "\/views\/site\/registro.php",
 		"oF": 0
 		},
+	"\/views\/site\/verPremio.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/site\/verPremio.php",
+		"oF": 0
+		},
 	"\/web\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
@@ -40419,6 +40431,15 @@
 		"oAP": "\/web\/webAssets\/js\/jquery.jqpuzzle.full-min-min.js",
 		"oF": 0,
 		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/webAssets\/js\/jquery.jqpuzzle.full.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/web\/webAssets\/js\/jquery.jqpuzzle.full-min.js",
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/web\/webAssets\/js\/site-min.js": {
