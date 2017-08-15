@@ -15,7 +15,7 @@ $this->title="Gano perdio";
 <div class="container container-ribbon">
 
 	<img id="imagen-puzzle" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" />
-	<a id="js_comenzar" class="btn btn-secondary" href="#">Comenzar</a>
+	<a id="js_comenzar" class="btn btn-secondary btn-mecanica-comenzar" href="#">Comenzar</a>
 
 </div>
 
@@ -69,6 +69,7 @@ $this->title="Gano perdio";
             toggleOriginalLabel:    'Original!',
         };
 		$('#imagen-puzzle').jqPuzzle(settings, myTexts); // apply to all images
+
 
 		$("#js_comenzar").on("click", function(){
 			$(this).css('display','none');
