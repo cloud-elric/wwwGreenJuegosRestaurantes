@@ -318,10 +318,14 @@ $.fn.jqPuzzle = function(settings, texts) {
 			// make sure to get the original image size, not scaled values
 			// in mozilla, width() and height() do not work with hidden elements
 			$srcImg.css({width: 'auto', height: 'auto', visibility: 'visible'});
+			var mi_imagen = $("#imagen-puzzle1");
 
 			// pieces width and height, based on original image size
-			var width  = Math.floor(($srcImg.width()-coveredWidth) / cols);
-			var height = Math.floor(($srcImg.height()-coveredHeight) / rows);
+			var width  = Math.floor((mi_imagen.width()-coveredWidth) / cols);
+			var height = Math.floor((mi_imagen.height()-coveredHeight) / rows);
+
+			//var width  = Math.floor(($srcImg.width()-coveredWidth) / cols);
+			//var height = Math.floor(($srcImg.height()-coveredHeight) / rows);
 
 			// reject too small images
 			if(width < 30 || height < 30) return false;

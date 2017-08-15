@@ -14,7 +14,7 @@ $this->title="Gracias por participar";
       <h2><?=$premio->txt_nombre?></h2>
       <p>No olvides imprimir tu certificado</p>
 		</div>
-    <a class="btn btn-primary" href="<?=Url::base()?>/site/imprimir-certificado?token<?=$token?>" target="_blank">Imprimir Certificado</a>
+    <a class="btn btn-primary" href="<?=Url::base()?>/site/imprimir-certificado?token=<?=$token?>" target="_blank">Imprimir Certificado</a>
 		<a class="btn btn-secondary" href="<?=Url::base()?>">Finalizar</a>
 	</div>
 	<!-- Fin premio contenedor -->
