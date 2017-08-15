@@ -9,8 +9,10 @@ $this->title="Gano perdio";
 	visibility: none !important;
 }
 </style>
+	<img id="imagen-puzzle1" style="width:50%; display:none" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzldd" />	
+
 <div class="container container-ribbon">
-	<img id="imagen-puzzle" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" height="500" width="500"/>
+	<img id="imagen-puzzle" style="width:50%" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" />
 	<a id="js_comenzar" class="btn btn-secondary" href="#">Comenzar</a>
 </div>
 
@@ -64,7 +66,6 @@ $this->title="Gano perdio";
             toggleOriginalLabel:    'Original!',
         };
 		$('#imagen-puzzle').jqPuzzle(settings, myTexts); // apply to all images
-
 
 		$("#js_comenzar").on("click", function(){
 			$(".jqp-controls>a").trigger("click");
