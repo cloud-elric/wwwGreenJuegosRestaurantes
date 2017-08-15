@@ -9,11 +9,14 @@ $this->title="Gano perdio";
 	visibility: none !important;
 }
 </style>
-	<img id="imagen-puzzle1" style="width:50%; display:none" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzldd" />	
+
+	<img class="img-fullscreen" id="imagen-puzzle1" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="">
 
 <div class="container container-ribbon">
-	<img id="imagen-puzzle" style="width:50%" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" />
-	<a id="js_comenzar" class="btn btn-secondary" href="#">Comenzar</a>
+
+	<img id="imagen-puzzle" src="<?=Url::base()?>/webAssets/images/imagen-rompecabezas.png" alt="imagen" class="jqPuzzle" />
+	<a id="js_comenzar" class="btn btn-secondary btn-mecanica-comenzar" href="#">Comenzar</a>
+
 </div>
 
 <script type="text/javascript">
@@ -67,7 +70,9 @@ $this->title="Gano perdio";
         };
 		$('#imagen-puzzle').jqPuzzle(settings, myTexts); // apply to all images
 
+
 		$("#js_comenzar").on("click", function(){
+			$(this).css('display','none');
 			$(".jqp-controls>a").trigger("click");
 		});
 	});

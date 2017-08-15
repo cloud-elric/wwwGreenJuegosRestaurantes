@@ -454,6 +454,9 @@ body {
   position: relative;
   overflow: hidden;
   /* Para la pantalla de premio */ }
+  @media screen and (max-width: 768px) {
+    .container {
+      justify-content: space-between; } }
   .container h3 {
     margin-bottom: 50px;
     width: 100%; }
@@ -570,9 +573,16 @@ body {
 .container-ribbon,
 .container-premio {
   flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 0;
+  overflow-y: scroll;
   background-image: url("../images/fondorestaurante.png");
   background-size: cover;
   background-position: center; }
+  @media screen and (max-width: 768px) {
+    .container-ribbon h3,
+    .container-premio h3 {
+      padding: 0 25px; } }
   .container-ribbon a,
   .container-premio a {
     margin-top: 100px; }
@@ -585,6 +595,11 @@ body {
     color: #FFF;
     line-height: 1.5em;
     font-size: 2em; }
+    @media screen and (max-width: 768px) {
+      .container-ribbon p,
+      .container-premio p {
+        font-size: 1em;
+        padding: 0 25px; } }
 
 .container-premio {
   background-image: url("../images/logo-fa-with-ribbon.png");
@@ -613,25 +628,32 @@ body {
   z-index: 1;
   bottom: 40px;
   right: 40px; }
+  @media (min-width: 769px) and (max-width: 991px) {
+    .logo {
+      z-index: -1; } }
   @media screen and (max-width: 768px) {
     .logo {
       width: 100px;
       margin-left: -50px;
       left: 50%;
-      bottom: 20px; } }
+      bottom: 20px;
+      z-index: -1; } }
 
 .logo-evento {
   position: relative;
   z-index: 1; }
   @media screen and (max-width: 768px) {
     .logo-evento {
-      width: 350px; } }
+      width: 250px; } }
 
 .message {
   color: #FFF; }
 
 .floating-img {
   position: absolute; }
+  @media screen and (max-width: 768px) {
+    .floating-img {
+      opacity: 0.6; } }
 
 .botella {
   top: 300px;
@@ -646,7 +668,24 @@ body {
   left: -100px; }
 
 .logo-fa {
-  bottom: 100px;
-  right: 100px; }
+  bottom: 60px;
+  right: 60px; }
+  @media screen and (max-width: 768px) {
+    .logo-fa {
+      bottom: 50px; } }
+
+.rompecabezas-instrucciones {
+  width: 300px; }
+
+.btn-mecanica-comenzar {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -61px; }
+
+.img-fullscreen {
+  width: 100%;
+  height: 100vh;
+  display: none; }
 
 /*# sourceMappingURL=site.css.map */

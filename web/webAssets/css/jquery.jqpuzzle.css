@@ -1,15 +1,15 @@
 /*
  * jqPuzzle - Sliding Puzzles with jQuery
  * Default CSS theme
- * 
+ *
  * Copyright (c) 2008 Ralf Stoltze, http://www.2meter3.de/jqPuzzle/
  * Dual-licensed under the MIT and GPL licenses.
  *
- * Note that some CSS properties are set by the jqPuzzle script itself to make 
- * sure that the puzzle works properly. These properties will overwrite 
+ * Note that some CSS properties are set by the jqPuzzle script itself to make
+ * sure that the puzzle works properly. These properties will overwrite
  * user-defined properties.
- * 
- * The class 'jqp-solved' is added to the outermost element when a puzzle is 
+ *
+ * The class 'jqp-solved' is added to the outermost element when a puzzle is
  * solved by the user. Use '.jqPuzzle.jqp-solved' to define different styles
  * for solved puzzles.
  */
@@ -18,7 +18,7 @@
 .jqPuzzle {
 	padding: 5px;
 	border: 1px solid #222222;
-	background-color: #DDDDFF;
+	background-color: #000000 !important;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -35,7 +35,7 @@
 .jqPuzzle .jqp-wrapper {
 	padding: 2px;
 	border: 1px solid #FFFFFF;
-	background-color: #444455;
+	background-color: #000000;
 }
 
 /* a single puzzle piece */
@@ -76,7 +76,7 @@
 }
 
 /* toggle/down state for buttons */
-.jqPuzzle .jqp-controls a.jqp-toggle, 
+.jqPuzzle .jqp-controls a.jqp-toggle,
 .jqPuzzle .jqp-controls a.jqp-down {
 	padding-left: 4px;
 	padding-right: 6px;

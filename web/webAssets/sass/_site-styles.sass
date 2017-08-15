@@ -72,7 +72,8 @@ body
 	z-index: 1
 	position: relative
 	overflow: hidden
-
+	+respond-to(xs)
+		justify-content: space-between
 	h3
 		margin-bottom: 50px
 		width: 100%
@@ -152,6 +153,7 @@ body
 				padding: 0
 				font-size: .95em
 
+
 		.form-cta-wrapper
 			margin-top: 10px
 			text-align: center
@@ -196,10 +198,17 @@ body
 .container-ribbon,
 .container-premio
 	flex-direction: column
+	justify-content: space-between
+	padding: 25px 0
+	overflow-y: scroll
 	background:
 		image: url("../images/fondorestaurante.png")
 		size: cover
 		position: center
+
+	h3
+		+respond-to(xs)
+			padding: 0 25px
 
 	a
 		margin-top: 100px
@@ -209,6 +218,9 @@ body
 		color: $white
 		line-height: 1.5em
 		font-size: 2em
+		+respond-to(xs)
+			font-size: 1em
+			padding: 0 25px
 
 .container-premio
 	background:
@@ -250,18 +262,21 @@ body
 	z-index: 1
 	bottom: 40px
 	right: 40px
+	+respond-to(sm)
+		z-index: -1
 	+respond-to(xs)
 		width: 100px
 		margin-left: -50px
 		left: 50%
 		bottom: 20px
+		z-index: -1
 
 
 .logo-evento
 	position: relative
 	z-index: 1
 	+respond-to(xs)
-		width: 350px
+		width: 250px
 
 
 .message
@@ -270,6 +285,8 @@ body
 
 .floating-img
 	position: absolute
+	+respond-to(xs)
+		opacity: 0.6
 
 .botella
 	top: 300px
@@ -284,5 +301,24 @@ body
 	left: -100px
 
 .logo-fa
-	bottom: 100px
-	right: 100px
+	bottom: 60px
+	right: 60px
+	+respond-to(xs)
+		bottom: 50px
+
+
+.rompecabezas-instrucciones
+	width: 300px
+
+
+.btn-mecanica-comenzar
+	position: absolute
+	bottom: 50px
+	left: 50%
+	margin-left: -61px
+
+
+.img-fullscreen
+	width: 100%
+	height: 100vh
+	display: none

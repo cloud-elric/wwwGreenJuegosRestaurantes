@@ -55,7 +55,7 @@ $.fn.jqPuzzle = function(settings, texts) {
 			gridSize: 2,			// space between two pieces in px
 			overlap: true,			// if true, adjacent piece borders will overlap
 									// applies only if gridSize is set to 0
-			backgroundOpacity: 0.5	// opacity of the original image behind the pieces
+			backgroundOpacity: 0.1	// opacity of the original image behind the pieces
 									// [0 ... 1] (0 means no display)
 		}
 	};
