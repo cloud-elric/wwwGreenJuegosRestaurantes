@@ -2,6 +2,8 @@
 namespace app\models;
 
 class WebConstantes{
+    // Constantes
+    
     const ENTRE_FUEGOS = 1;
     const LA_3RA_RONDA = 2;
     const LA_TEXTILERIA = 3;
