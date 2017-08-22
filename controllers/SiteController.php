@@ -86,7 +86,8 @@ class SiteController extends Controller {
 			$cupon = CatCupones::find()->where(['txt_cupon'=>$usuario->txt_codigo])->one();
 			if($cupon){
 				$cuponUsado = EntUsuarios::find()->where(['id_cupon'=>$cupon->id_cupon])->andWhere(['id_restaurante'=>WebConstantes::ENTRE_FUEGOS])->one();
-				if(!$cuponUsado){
+				if(true){
+				// if(!$cuponUsado){
 				$usuario->id_cupon = $cupon->id_cupon;
 				$usuario->txt_token = 'usr_'.md5($usuario->txt_nombre_completo.microtime ()) ;
 				if ($usuario->save ()) {
@@ -95,9 +96,9 @@ class SiteController extends Controller {
 					}
 				}else{
 					$usuario->addError('txt_codigo', 'Código no válido');
-				}				
+				}
 			}else{
-				$usuario->addError('txt_codigo', 'Código no válido');				
+				$usuario->addError('txt_codigo', 'Código no válido');
 			}
 		}
 
@@ -266,7 +267,7 @@ private function getShortUrl($url) {
 		$df = fopen ( "php://output", "w" );
 		fputcsv ( $df, [
 				'Nombre completo',
-				'Nombre restaurante',				
+				'Nombre restaurante',
 				'Telefono',
 				'C.P.',
 				'Edad',
@@ -392,7 +393,8 @@ private function getShortUrl($url) {
 
 
 		return $this->render('verPremio', [
-			'premio' => $relPremio->idPremio
+			'premio' => $relPremio->idPremio,
+			'token' => $token
 		]);
 	}
 

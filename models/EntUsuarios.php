@@ -3,6 +3,7 @@
 namespace app\models;
 
 use Yii;
+use app\models\WebConstantes;
 
 /**
  * This is the model class for table "ent_usuarios".
@@ -31,6 +32,19 @@ use Yii;
  */
 class EntUsuarios extends \yii\db\ActiveRecord
 {
+
+      function __construct() {
+
+          if (WebConstantes :: DEBUG ) {
+            $this -> txt_nombre_completo = "Geek";
+            $this -> txt_telefono_celular = "5535118017";
+            $this -> num_edad = "34";
+            $this -> txt_cp = "53230";
+            $this -> txt_codigo = "Geek01";
+            $this -> txt_num_empleado = "GeekDev2130";
+          }
+
+     }
     /**
      * @inheritdoc
      */
