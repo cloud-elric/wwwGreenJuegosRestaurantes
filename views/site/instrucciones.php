@@ -4,9 +4,9 @@ use yii\helpers\Url;
 $this->title="Instrucciones";
 ?>
 
-<div class="container container-ribbon">
+<div class="container container-instrucciones">
 
-	<div class="container container-960">
+	<div class="container container-instrucciones">
 		<h3>Instrucciones</h3>
 
 		<p>Resuelve el rompecabezas en el menor tiempo posible, haz clic en las piezas para moverlas y ponerlas en orden, entre mas pronto lo armes mayores serán los beneficios.</p>

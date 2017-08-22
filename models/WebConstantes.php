@@ -13,4 +13,6 @@ class WebConstantes{
 
     const TIEMPO_PREMIO_MAYOR = "120";
     const TEST = NULL;
+
+    const DEBUG = true;
 }
